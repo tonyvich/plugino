@@ -97,7 +97,7 @@ abstract class Kernel implements KernelInterface
     public function initializeContainer()
     {
         $this->container = new ContainerBuilder;
-        $loader = new YamlFileLoader($this->container, new FileLocator($this->getRootDir() . 'app/config/'));
+        $loader = new YamlFileLoader($this->container, new FileLocator($this->getRootDir() . '/app/config/'));
         $loader->load('services.yml');
 
         $this->container->setParameter('root_dir', $this->getRootDir());
