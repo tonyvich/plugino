@@ -4,5 +4,5 @@ Installation
 ------------
 1. Fetch source code via composer
 ```
-composer require emmanuel-k/plugino-framework
+composer require emmanuel-k/plugino
 ```

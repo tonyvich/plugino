@@ -1,19 +1,19 @@
 {
-    "name": "emmanuel-k/plugino-framework",
+    "name": "emmanuel-k/plugino",
     "description": "A Wordpress plugin devlopment framework based on Symfony Components",
     "keywords": ["wordpress", "symfony", "plugin", "framework"],
     "homepage":"https://github.com/emmanuel-k/plugino-framework",
     "license":"MIT",
     "type": "library",
     "require": {
-        "php": ">=5.6.10",
+        "php": ">=5.5.9",
         "symfony/dependency-injection": "^3.3",
         "symfony/yaml": "^3.3",
         "symfony/config": "^3.3"
     },
     "autoload": {
         "psr-4": {
-            "Plugino\\Component\\": "src/Plugino/Component/"
+            "Plugino\\Component\\HttpKernel\\": "src/Plugino/Component/HttpKernel/"
         }
     },
     "minimum-stability": "dev",
