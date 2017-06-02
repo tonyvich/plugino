@@ -10,12 +10,21 @@
 namespace Plugino\Framework;
 
 
+use Symfony\Component\Config\FileLocator;
+use Symfony\Component\DependencyInjection\ContainerBuilder;
+use Symfony\Component\DependencyInjection\Loader\YamlFileLoader;
+
 class Application
 {
+    public $plugin;
+    protected $pluginDirectory;
 
 
-	public function __construct()
+	public function __construct($directory)
 	{
+	    $this->pluginDirectory = $directory;
+	    $this->plugin = new ContainerBuilder;
+	    //$loader = new YamlFileLoader($this->plugin, new FileLocator(ROOT_DIR . 'app/config'));
 	}
 
 }
