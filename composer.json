@@ -18,5 +18,6 @@
             "homepage": "http://mystro-ken.cm",
             "role": "Lead Developer"
         }
-    ]
+    ],
+    "minimum-stability": "stable"
 }
