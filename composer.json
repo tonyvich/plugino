@@ -13,9 +13,10 @@
     },
     "autoload": {
         "psr-4": {
-            "Plugino\\Framework\\": ""
+            "Plugino\\Component\\": "src/Plugino/Component/"
         }
     },
+    "minimum-stability": "dev",
     "authors": [
         {
             "name": "Emmanuel KWENE",
