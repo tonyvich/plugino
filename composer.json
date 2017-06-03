@@ -1,5 +1,5 @@
 {
-    "name": "emmanuel-k/plugino",
+    "name": "mystroken/plugino",
     "description": "A Wordpress plugin devlopment framework based on Symfony Components",
     "keywords": ["wordpress", "symfony", "plugin", "framework"],
     "homepage":"https://github.com/emmanuel-k/plugino-framework",
