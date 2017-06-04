@@ -1,6 +1,6 @@
 {
     "name": "plugino/plugino",
-    "description": "A Wordpress plugin devlopment framework based on Symfony Components",
+    "description": "The Core of Plugino Framework, the PHP Framework for WordPress Plugin development",
     "keywords": ["wordpress", "symfony", "plugin", "framework"],
     "homepage":"https://giemmanuel-k/pluginothub.com/emmanuel-k/plugino-framework",
     "license":"MIT",
